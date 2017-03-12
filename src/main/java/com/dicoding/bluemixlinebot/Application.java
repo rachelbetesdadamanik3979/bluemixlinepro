@@ -20,8 +20,4 @@ public class Application extends SpringBootServletInitializer
         SpringApplication.run(Application.class, args);
     }
     
-    <dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-thymeleaf</artifactId>
-</dependency>
 };
