@@ -15,16 +15,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import retrofit2.Response;
 
-import org.springframework.context.annotation.Configuration;
-import org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration;
-
 import java.io.IOException;
 
 @RestController
 @RequestMapping(value="/linebot")
-
-@Configuration
-@EnableAutoConfiguration(exclude = {ErrorMvcAutoConfiguration.class})
 
 public class LineBotController
 {
