@@ -18,6 +18,7 @@ import retrofit2.Response;
 import java.io.IOException;
 
 @RestController
+@EnableAutoConfiguration.
 @RequestMapping(value="/linebot")
 
 public class LineBotController
